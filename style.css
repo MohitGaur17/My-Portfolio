@@ -1,5 +1,8 @@
-body{
-    /* background-color: rgb(105, 196, 233); */
+header{
+    background-color: rgb(105, 196, 233);
+    margin: 0;
+    padding: 0;
+    border-radius: 10mm;
 }
 h1{
     text-align: center;
@@ -11,3 +14,39 @@ h6{
     padding: 0;
     margin: 0;
 }
+
+/* .berkshire-swash-regular  */
+header > h1 {
+    font-family:  "Berkshire Swash", serif;
+    font-style: normal;
+    color: rgb(255, 245, 54);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 245, 54);
+    text-shadow: 1px -1px 2px black;
+    
+  }
+
+/* .hammersmith-one-regular */
+header > h6 {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* .rakkas-regular {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+  /* .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+  /* .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
